@@ -1,0 +1,40 @@
+body, html {
+	font-family: 'Calibri';
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.games_banner {
+	background-image: url("img/banner.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+    height: 500px;
+}
+nav {
+    background-color: rgb(20, 22, 36);
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    margin-left: 35%;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
