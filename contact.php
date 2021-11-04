@@ -1,32 +1,6 @@
-<!DOCTYPE HTML>
 
-<html>
-	<head>
-		<title>Napredne tehnike programiranja web servisa</title>
-		<link rel="stylesheet" href="style.css">
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta name="description" content="Projekt za vježbe iz Naprednih tehnika programiranja web servisa">
-		<meta name="keywords" content="games, news, overview">
-		<meta name="author" content="Fran Peh">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	</head>
-<body>
-	<header>
-		<div class="games_banner"></div>
-		<nav>
-			<div class="first">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="news.html">News</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
-				  </ul>
-		</div>
-		</nav>
-	</header>
-	<main>
+<?php 
+print '
 		<h1>Contact Form</h1>
 		<div id="contact">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.510448555175!2d15.889758415775226!3d45.80103461892487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d16937e7e201%3A0x46942fe567fe5b15!2sUl.%20Drage%20Gervaisa%2025%2C%2010000%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1635353494554!5m2!1shr!2shr" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -56,10 +30,5 @@
 
 				<input type="submit" value="Submit">
 			</form>
-		</div>
-	</main>
-	<footer>
-		<p>Copyright &copy; 2021 Fran Peh. <a href="https://github.com/CroPeh?tab=repositories"><img src="img/GitHub-Mark-Light-32px.png"></a></p>
-	</footer>
-</body>
-</html>
+		</div>';
+?>

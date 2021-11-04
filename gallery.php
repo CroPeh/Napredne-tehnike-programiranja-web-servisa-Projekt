@@ -1,32 +1,5 @@
-<!DOCTYPE HTML>
-
-<html>
-	<head>
-		<title>Napredne tehnike programiranja web servisa</title>
-		<link rel="stylesheet" href="style.css">
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta name="description" content="Projekt za vježbe iz Naprednih tehnika programiranja web servisa">
-		<meta name="keywords" content="games, news, overview">
-		<meta name="author" content="Fran Peh">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	</head>
-<body>
-	<header>
-		<div class="games_banner"></div>
-		<nav>
-			<div class="first">
-			<ul>
-			  <li><a href="index.html">Home</a></li>
-			  <li><a href="news.html">News</a></li>
-			  <li><a href="contact.html">Contact</a></li>
-			  <li><a href="about.html">About</a></li>
-			  <li><a href="#">Gallery</a></li>
-			</ul>
-		</div>
-		</nav>
-	</header>
-	<main>
+<?php 
+	print '
 		<h1>Gallery</h1>
 		<div id="gallery">
 			<figure id="1">
@@ -39,7 +12,7 @@
 			</figure>
 			<figure id="3">
 				<a href="img/gallery/rss.jpg" target="_blank"><img src="img/gallery/rss.jpg"></a>
-				<figcaption>Tom Clancy's Rainbow Six Siege is the thirteenth installment in the Tom Clancy's Rainbow Six Franchise developed by Ubisoft Montreal.<figcaption>
+				<figcaption>Tom Clancys Rainbow Six Siege is the thirteenth installment in the Tom Clancys Rainbow Six Franchise developed by Ubisoft Montreal.<figcaption>
 			</figure>
 			<figure id="4">
 				<a href="img/gallery/terraria.jpg" target="_blank"><img src="img/gallery/terraria.jpg"></a>
@@ -59,7 +32,7 @@
 			</figure>
             <figure id="8">
 				<a href="img/gallery/pubg.jpg" target="_blank"><img src="img/gallery/pubg.jpg"></a>
-				<figcaption>PlayerUnknown's Battlegrounds (stylized as PUBG) is an online multiplayer battle royale game developed and published by PUBG Corporation.<figcaption>
+				<figcaption>PlayerUnknowns Battlegrounds (stylized as PUBG) is an online multiplayer battle royale game developed and published by PUBG Corporation.<figcaption>
 			</figure>
             <figure id="9">
 				<a href="img/gallery/dd.jpg" target="_blank"><img src="img/gallery/dd.jpg"></a>
@@ -69,10 +42,5 @@
 				<a href="img/gallery/ark.jpg" target="_blank"><img src="img/gallery/ark.jpg"></a>
 				<figcaption>Ark: Survival Evolved (stylized as ΛRK) is a 2017 action-adventure survival video game developed by Studio Wildcard.<figcaption>
 			</figure>
-		</div>
-	</main>
-	<footer>
-		<p>Copyright &copy; 2021 Fran Peh. <a href="https://github.com/CroPeh?tab=repositories"><img src="img/GitHub-Mark-Light-32px.png"></a></p>
-	</footer>
-</body>
-</html>
+		</div>';
+		?>
