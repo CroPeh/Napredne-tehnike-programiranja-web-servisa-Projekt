@@ -1,0 +1,5 @@
+U dbConnection.php fileu kraj localhosta se nalazi :3307 port, vjerojatno će te trebati maknuti taj dio ako vam portovi normalno rade. Ja sam morao dodati jer mi je port 3306 bio zauzet već.
+
+U folderu BAZA je baza podataka za projekt sa tablicama countries, news i users
+
+Admin login: admin	password: admin
